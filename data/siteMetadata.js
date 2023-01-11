@@ -18,7 +18,6 @@ const siteMetadata = {
   twitter: 'https://twitter.com/Twitter/9Satoooh',
   facebook: 'https://www.facebook.com/taiki.sato.3785',
   youtube: 'https://youtube.com/@satoooh',
-  linkedin: 'https://www.linkedin.com',
   locale: 'ja-JP',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
