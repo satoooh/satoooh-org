@@ -27,7 +27,7 @@ module.exports = {
         14: '3.5rem',
       },
       fontFamily: {
-        sans: ['Inter', ...fontFamily.sans],
+        sans: ['"M PLUS 2"', ...fontFamily.sans],
       },
       colors: {
         primary: colors.teal,
