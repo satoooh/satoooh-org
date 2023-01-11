@@ -31,7 +31,7 @@ module.exports = {
       },
       colors: {
         primary: colors.teal,
-        gray: colors.neutral,
+        gray: colors.gray,
       },
       typography: (theme) => ({
         DEFAULT: {
