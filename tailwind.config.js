@@ -27,7 +27,7 @@ module.exports = {
         14: '3.5rem',
       },
       fontFamily: {
-        sans: ['Inter', ...fontFamily.sans],
+        sans: ['"Segoe UI"', 'Roboto', ...fontFamily.sans],
       },
       colors: {
         primary: colors.teal,
