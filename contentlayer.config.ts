@@ -78,6 +78,7 @@ export const Authors = defineDocumentType(() => ({
 export default makeSource({
   contentDirPath: 'data',
   documentTypes: [Blog, Authors],
+  date: { timezone: 'Asia/Tokyo' },
   mdx: {
     cwd: process.cwd(),
     remarkPlugins: [
