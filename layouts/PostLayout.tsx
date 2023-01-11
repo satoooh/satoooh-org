@@ -10,10 +10,10 @@ import Image from '@/components/Image'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import ScrollTopAndComment from '@/components/ScrollTopAndComment'
+import { FacebookShareButton, TwitterShareButton } from 'react-share'
+import { SocialIcon } from 'react-social-icons'
 
 const editUrl = (path) => `${siteMetadata.siteRepo}/blob/master/data/${path}`
-const discussUrl = (path) =>
-  `https://mobile.twitter.com/search?q=${encodeURIComponent(`${siteMetadata.siteUrl}/${path}`)}`
 
 const postDateTemplate: Intl.DateTimeFormatOptions = {
   weekday: 'long',
@@ -34,6 +34,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
   const { filePath, path, slug, date, title, tags } = content
   const basePath = path.split('/')[0]
   const [loadComments, setLoadComments] = useState(false)
+  const postUrl = `${siteMetadata.siteUrl}/${path}`
 
   return (
     <SectionContainer>
@@ -96,12 +97,34 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
             </dl>
             <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
               <div className="prose max-w-none pt-10 pb-8 dark:prose-dark">{children}</div>
-              <div className="pt-6 pb-6 text-sm text-gray-700 dark:text-gray-300">
-                <Link href={discussUrl(path)} rel="nofollow">
-                  Discuss on Twitter
-                </Link>
-                {` • `}
-                <Link href={editUrl(filePath)}>View on GitHub</Link>
+              <div className="grid place-items-center pt-6 pb-6 text-sm text-gray-700 dark:text-gray-300">
+                <div className="flex items-center space-x-4">
+                  <TwitterShareButton
+                    url={postUrl}
+                    title={title}
+                    className="flex items-center overflow-hidden rounded-full !bg-[#1da1f2] hover:scale-110"
+                  >
+                    <SocialIcon
+                      network="twitter"
+                      style={{ height: 35, width: 35 }}
+                      fgColor="#fff"
+                      bgColor="#1da1f2"
+                    />
+                  </TwitterShareButton>
+                  <FacebookShareButton
+                    url={postUrl}
+                    quote={title}
+                    className="flex items-center overflow-hidden rounded-full !bg-[#1877f2] hover:scale-110"
+                  >
+                    <SocialIcon
+                      network="facebook"
+                      style={{ height: 35, width: 35 }}
+                      fgColor="#fff"
+                      bgColor="#1877f2"
+                    />
+                  </FacebookShareButton>
+                  <Link href={editUrl(filePath)}>View on GitHub</Link>
+                </div>
               </div>
               {siteMetadata.comments && (
                 <div
@@ -109,7 +132,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                   id="comment"
                 >
                   {!loadComments && (
-                    <button onClick={() => setLoadComments(true)}>Load Comments</button>
+                    <button onClick={() => setLoadComments(true)}>コメントを読み込む</button>
                   )}
                   {loadComments && <Comments commentsConfig={siteMetadata.comments} slug={slug} />}
                 </div>
