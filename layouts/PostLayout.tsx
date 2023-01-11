@@ -10,13 +10,7 @@ import Image from '@/components/Image'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import ScrollTopAndComment from '@/components/ScrollTopAndComment'
-import {
-  FacebookShareButton,
-  TwitterShareButton,
-  LineShareButton,
-  EmailShareButton,
-  HatenaShareButton,
-} from 'react-share'
+import { FacebookShareButton, TwitterShareButton } from 'react-share'
 import { SocialIcon } from 'react-social-icons'
 
 const editUrl = (path) => `${siteMetadata.siteRepo}/blob/master/data/${path}`
