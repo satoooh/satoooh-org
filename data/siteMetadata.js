@@ -16,7 +16,7 @@ const siteMetadata = {
   email: 'mail@satoooh.org',
   github: 'https://github.com/satoooh',
   twitter: 'https://twitter.com/Twitter/9Satoooh',
-  facebook: 'https://facebook.com',
+  facebook: 'https://www.facebook.com/taiki.sato.3785',
   youtube: 'https://youtube.com/@satoooh',
   linkedin: 'https://www.linkedin.com',
   locale: 'ja-JP',
