@@ -138,7 +138,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                   id="comment"
                 >
                   {!loadComments && (
-                    <button onClick={() => setLoadComments(true)}>Load Comments</button>
+                    <button onClick={() => setLoadComments(true)}>コメントを読み込む</button>
                   )}
                   {loadComments && <Comments commentsConfig={siteMetadata.comments} slug={slug} />}
                 </div>
