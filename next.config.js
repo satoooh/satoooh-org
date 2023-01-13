@@ -12,7 +12,7 @@ const ContentSecurityPolicy = `
   img-src * blob: data: gyazo.com;
   media-src 'none';
   connect-src *;
-  font-src 'self' fonts.gstatic.com;
+  font-src 'self';
   frame-src giscus.app
 `
 
