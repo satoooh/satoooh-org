@@ -15,6 +15,7 @@ interface Props {
 
 const mplus2 = M_PLUS_2({
   subsets: ['japanese'],
+  display: 'swap',
 })
 
 const LayoutWrapper = ({ children }: Props) => {
