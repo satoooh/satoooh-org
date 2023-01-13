@@ -1,7 +1,7 @@
 ---
 title: '@next/font で初回読み込み時にフォントが適用されない'
 date: 2023-01-13T03:00:00Z
-lastmod: '2023-01-13'
+lastmod: '2023-01-14'
 tags: ['Next.js']
 images: ['https://gyazo.com/b960ef7e491f7bf8f2210102465767d5.png']
 draft: false
@@ -19,7 +19,7 @@ Next.js 製の本サイトでは執筆時点で [M PLUS 2 (Google Fonts)](https:
 
 以下の例は本サイトで利用している M PLUS 2 を使う場合です。
 
-```js
+```js {7}
 import { M_PLUS_2 } from '@next/font/google'
 
 ...
