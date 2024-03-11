@@ -107,6 +107,19 @@ const socialImageURL = new URL(
 
     <ViewTransitions />
 
+    <!-- Google Analytics -->
+    <script
+      type="text/partytown"
+      src="https://www.googletagmanager.com/gtag/js?id=G-RMM4YF7S0F"></script>
+    <script type="text/partytown">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-RMM4YF7S0F");
+    </script>
+
     <script is:inline src="/toggle-theme.js"></script>
   </head>
   <body>
