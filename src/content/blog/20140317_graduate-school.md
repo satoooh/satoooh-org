@@ -10,6 +10,7 @@ draft: false
 tags:
   - "研究"
   - "就活"
+ogImage: "/assets/llm-slides.png"
 ---
 
 2022年4月に修士課程に進学し、2024年3月に学位を取得し卒業しました。
