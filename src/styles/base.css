@@ -6,7 +6,8 @@
   :root,
   html[data-theme="light"] {
     --color-fill: 251, 254, 251;
-    --color-text-base: 40, 39, 40;
+    --color-text-base: 60, 59, 60;
+    --color-text-base: 78, 78, 80;
     --color-accent: 37, 99, 235;
     --color-card: 230, 230, 230;
     --color-card-muted: 205, 205, 205;
@@ -49,15 +50,26 @@
     sm:scale-110;
   }
   .prose {
-    @apply prose-headings:!mb-3 prose-headings:!text-skin-base 
-    prose-h3:italic prose-p:!text-skin-base 
-    prose-a:!text-skin-base prose-a:!decoration-dashed prose-a:underline-offset-8
-    hover:prose-a:text-skin-accent prose-blockquote:!border-l-skin-accent
-    prose-blockquote:border-opacity-50 prose-blockquote:opacity-80
-    prose-figcaption:!text-skin-base prose-figcaption:opacity-70
+    @apply prose-headings:!mb-3
+    prose-headings:!text-skin-base
+    prose-h2:!mb-8
+    after:prose-h2:block
+    after:prose-h2:h-1
+    after:prose-h2:w-6
+    after:prose-h2:bg-skin-accent
+    after:prose-h2:translate-y-2
+    prose-p:!text-skin-base
+    prose-a:!text-skin-base
+    prose-a:!decoration-dashed
+    prose-a:underline-offset-8
+    hover:prose-a:text-skin-accent
+    prose-blockquote:!border-l-skin-accent
+    prose-blockquote:border-opacity-50
+    prose-blockquote:opacity-80
+    prose-figcaption:!text-skin-base
+    prose-figcaption:opacity-70
     prose-strong:!text-skin-base
 
-    
     prose-code:rounded prose-code:bg-skin-card 
     prose-code:bg-opacity-75 prose-code:p-1 
     prose-code:before:!content-none prose-code:after:!content-none
