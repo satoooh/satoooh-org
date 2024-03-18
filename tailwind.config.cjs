@@ -58,7 +58,7 @@ module.exports = {
         sans: [
           '"Noto Sans JP", sans-serif',
           {
-            fontFeatureSettings: '"palt 1"',
+            fontFeatureSettings: '"palt"',
           },
         ]
       },

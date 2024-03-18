@@ -60,6 +60,7 @@
     after:prose-h2:bg-skin-accent
     after:prose-h2:translate-y-2
     prose-p:!text-skin-base
+    prose-p:tracking-widest
     prose-a:!text-skin-base
     prose-a:!decoration-dashed
     prose-a:underline-offset-8
