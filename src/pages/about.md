@@ -3,7 +3,7 @@ layout: ../layouts/AboutLayout.astro
 title: "About Me"
 ---
 
-<img src="/src/assets/images/avatar.png" alt="Profile Picture" width="200" height="200" style="border: solid 1px #ddd; border-radius: 50%;">
+<img src="/assets/avatar.png" alt="Profile Picture" width="200" height="200" style="border: solid 1px #ddd; border-radius: 50%;">
 
 - Name: Taiki Sato (佐藤 大希)
 - E-mail: mail (at) satoooh.org
