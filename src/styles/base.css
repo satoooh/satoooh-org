@@ -143,6 +143,11 @@
   pre > code {
     white-space: pre;
   }
+
+  iframe.youtube {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+  }
 }
 
 @layer components {
