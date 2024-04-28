@@ -4,7 +4,7 @@ description: "Apex Legends 非公式 Mod である R5Reloaded の 1v1 データ�
 pubDatetime: 2024-03-03
 author: "satoooh"
 slug: "apexlegends-mnk-pad-comparison-using-r5reloaded-data"
-featured: true
+featured: false
 draft: false
 tags:
   - "2024"

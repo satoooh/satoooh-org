@@ -4,7 +4,7 @@ description: "Google 検索結果のサイドバーに Scrapbox の検索結果�
 pubDatetime: 2023-01-30T04:20:00Z
 author: "satoooh"
 slug: "create-scrapbox-chrome-extension"
-featured: true
+featured: false
 draft: false
 tags:
   - "2023"
