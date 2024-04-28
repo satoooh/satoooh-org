@@ -1,6 +1,6 @@
 ---
 title: "気づいたら東大を卒業していたので、学部の4年間をざっくり振り返る"
-description: "テンプレート description"
+description: "東京大学理科一類→教養学部学際科学科B群総合情報学コースの学部生活をふりかえります"
 pubDatetime: 2022-04-18
 modDatetime: 2022-08-23
 author: "satoooh"
