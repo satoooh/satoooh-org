@@ -144,4 +144,10 @@ export const SOCIALS: SocialObjects = [
     linkTitle: `${SITE.title} on Mastodon`,
     active: false,
   },
+  {
+    name: "Bluesky",
+    href: "https://bsky.app/profile/satoooh.org",
+    linkTitle: `${SITE.title} on Bluesky`,
+    active: true,
+  },
 ];
