@@ -7,13 +7,13 @@ import siteOgImage from "./og-templates/site";
 const fetchFonts = async () => {
   // Regular Font
   const fontFileRegular = await fetch(
-    "https://www.1001fonts.com/download/font/ibm-plex-mono.regular.ttf"
+    "https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.otf"
   );
   const fontRegular: ArrayBuffer = await fontFileRegular.arrayBuffer();
 
   // Bold Font
   const fontFileBold = await fetch(
-    "https://www.1001fonts.com/download/font/ibm-plex-mono.bold.ttf"
+    "https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.otf"
   );
   const fontBold: ArrayBuffer = await fontFileBold.arrayBuffer();
 
@@ -28,13 +28,13 @@ const options: SatoriOptions = {
   embedFont: true,
   fonts: [
     {
-      name: "IBM Plex Mono",
+      name: "Noto Sans JP",
       data: fontRegular,
       weight: 400,
       style: "normal",
     },
     {
-      name: "IBM Plex Mono",
+      name: "Noto Sans JP",
       data: fontBold,
       weight: 600,
       style: "normal",
