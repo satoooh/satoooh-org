@@ -28,6 +28,8 @@ tags:
 ![指のシワの排水ネットワーク構造](/assets/wrinkled-fingers-have-drainage-network-pattern_1.webp)
 _図1 Changizi et al. (2011) [^Changizi2011Are] Fig.3. より引用。b が Promontory（岬型）の構造で、指のシワ型に該当するという (黒線部分でグリップするという予測) 。 a は逆の Basin（たらい型）の構造で、 d は Promontory 構造の実際の地形の例にあたる。_
 
+論文中では、物体を掴む際に黒線箇所で物体に触れ、青線箇所から効率よく排水をすることで物体保持の効率を高めると考えられています。
+
 ![指のシワの排水ネットワーク構造](/assets/wrinkled-fingers-have-drainage-network-pattern_2.webp)
 _図2 Changizi et al. (2011) [^Changizi2011Are] Fig.4., Fig.5. より引用。13人の被験者の指のシワを観察した。青が谷を示しており、Promontory ネットワークの構造の特徴が見られる。すなわち、シワのくぼみが、指先 (頂上) から遠くなるほど発散する傾向が見られる。_
 
@@ -39,6 +41,9 @@ _図2 Changizi et al. (2011) [^Changizi2011Are] Fig.4., Fig.5. より引用。13
 
 Kareklas et al. (2013) [^Kareklas2013Water-induced] では、水によってできた指のシワが濡れたものの操作性を向上させることを実験的に検証しています。
 一方で Haseleu et al. (2014) [^Haseleu2014Water-induced] が逆の結論、すなわち指のシワが濡れたものの操作性の向上に大きく寄与しないと検証しているため、仮説が正しいのかどうかについてはまだ検討の余地があると考えられます。
+
+![指のシワが濡れたものの操作性を向上させるか？](/assets/wrinkled-fingers-have-drainage-network-pattern_4.png)
+_図3 Kareklas et al. (2013) による実験結果。乾燥した物体 (dry) を指で移動させるのにかかった時間はシワのある指 (赤) とシワのない指 (黒) で差が見られなかったが、水没した物体 (wet) を指で移動させるのにかかった時間はシワのある指の方が短い。実験は右手の親指と人差指で物体をつまみ、穴から左手に通し、蓋に穴の空いた箱に入れる。_
 
 まぁ結論、まだよくわからないと理解しておくのが良いでしょうか。
 
