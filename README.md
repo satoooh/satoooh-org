@@ -67,3 +67,44 @@ All commands are run from the root of the project, from a terminal:
 | `npm run lint`                       | Lint with ESLint                                                                                                                 |
 | `docker compose up -d`               | Run AstroPaper on docker, You can access with the same hostname and port informed on `dev` command.                              |
 | `docker compose run app npm install` | You can run any command above into the docker container.                                                                         |
+
+## 記事テンプレート
+
+```markdown
+---
+title: "テンプレート"
+description: "テンプレート description"
+pubDatetime: 4000-01-01
+modDatetime: 4001-01-01
+author: "satoooh"
+slug: "template"
+featured: false
+draft: false
+tags:
+  - "tag01"
+  - "tag02"
+ogImage: "image.jpeg"
+---
+
+## Table of contents
+
+## Youtube 埋め込み
+
+<iframe class="youtube" src="https://www.youtube.com/embed/z8hKYUomEl0?si=klit-BgQLf5v0t6C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Youtube 埋め込み対応。
+`class="youtube"` と width, height の指定を削除した iframe を貼り付ける。
+
+## 数式
+
+$$E = mc^2$$
+
+インライン数式は $E = mc^2$ のようにかける。
+
+## 音声埋め込み
+
+<audio controls="controls">
+  <source type="audio/mp3" src="/assets/final_output-2024-05-19-LLM Radio - 2024年5月19日放送分.mp3"></source>
+  <p>Your browser does not support the audio element.</p>
+</audio>
+```
