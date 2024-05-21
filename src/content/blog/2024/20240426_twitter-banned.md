@@ -35,6 +35,8 @@ DMも当然見られず、かけてもらった言葉や大切なやりとりの
 
 また、この記事をご覧の私の知り合いのみなさまは、ぜひ記事を拡散して「satoは生きてます」ということを伝えていただけると本当に助かります。
 
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:wolbjvwtxvub2unbgl4ayihr/app.bsky.feed.post/3kr5jawqitc2v" data-bluesky-cid="bafyreidj7nlzte2u24zs2uhrmwaibxxxy4yfclqachtmpsqkze2gpyqedu"><p lang="ja">Twitter の @9Satoooh が凍結されてしまったため、避難場所として bluesky を使っていこうと思います。</p>&mdash; sato (<a href="https://bsky.app/profile/did:plc:wolbjvwtxvub2unbgl4ayihr?ref_src=embed">@satoooh.org</a>) <a href="https://bsky.app/profile/did:plc:wolbjvwtxvub2unbgl4ayihr/post/3kr5jawqitc2v?ref_src=embed">Apr 28, 2024 at 7:47</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+
 ## 追記: 2024-05-19 アカウントが突然復活しました
 
 凍結されてから1日3回ペースで異議申立てを様々な文面で行い、5月1週目には内容証明郵便で Twitter Japan 向けにアカウント凍結解除を求める書面を郵送するなど、できる工夫を色々していましたがサポートからの連絡は一切なく、復活の兆しはまったくありませんでした。
