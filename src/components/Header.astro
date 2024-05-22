@@ -212,4 +212,19 @@ const { activeNav } = Astro.props;
 
   // Runs on view transitions navigation
   document.addEventListener("astro:after-swap", toggleNav);
+
+  // Navigate to search page on pressing "/"
+  document.addEventListener("keydown", event => {
+    if (event.key === "/") {
+      event.preventDefault();
+      window.location.href = "/search/";
+    }
+  });
+
+  // Focus on search input after page load
+  if (window.location.pathname === "/search/") {
+    window.addEventListener("load", () => {
+      document.querySelector('input[name="search"]')?.focus();
+    });
+  }
 </script>
