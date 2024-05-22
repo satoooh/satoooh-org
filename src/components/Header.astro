@@ -224,7 +224,10 @@ const { activeNav } = Astro.props;
   // Focus on search input after page load
   if (window.location.pathname === "/search/") {
     window.addEventListener("load", () => {
-      document.querySelector('input[name="search"]')?.focus();
+      const searchInput = document.querySelector(
+        'input[name="search"]'
+      ) as HTMLInputElement;
+      searchInput?.focus();
     });
   }
 </script>
