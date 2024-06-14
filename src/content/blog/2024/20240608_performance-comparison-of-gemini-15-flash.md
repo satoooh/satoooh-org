@@ -22,7 +22,7 @@ _Gemini 1.5 Flash の指標 ( [artificialanalysis.ai](artificialanalysis.ai) よ
 
 ということで、実際にどんなもんなのかを試してみます。
 
-基本的な実験内容は以前書いた [GPT-4oの日本語生成速度の検証: GPT-3.5-Turboとの比較](/blog/2024/performance-comparison-of-gpt-models-35-4o) と同じです。
+基本的な実験内容は以前書いた [GPT-4oの日本語生成速度の検証: GPT-3.5-Turboとの比較](/posts/performance-comparison-of-gpt-models-35-4o) と同じです。
 SF 桃太郎を日本語で生成させる実験を max_tokens を変えながら行い、その応答速度を計測して比較しました。
 比較対象の GPT-4o, GPT-3.5-Turbo は以前の記事のデータを用いています。
 
