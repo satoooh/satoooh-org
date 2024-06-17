@@ -5,7 +5,7 @@ title: "About Me"
 
 <img src="/assets/avatar.png" alt="Profile Picture" width="200" height="200" style="border: solid 1px #ddd; border-radius: 50%;">
 
-AI enthusiast & Amateur researcher. Master from rkmtlab@UTokyo GSII (Interdisciplinary Information). I love engaging in useless & interesting things. All opinions are my own.
+AI enthusiast & Research hobbyist. Master from rkmtlab@UTokyo GSII (Interdisciplinary Information). I love engaging in useless & interesting things. All opinions are my own.
 blog: satoooh.org
 
 - Name: Taiki Sato (佐藤 大希)
