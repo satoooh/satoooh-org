@@ -8,6 +8,7 @@ featured: false
 draft: false
 tags:
   - "Notion"
+ogImage: "/assets/2024/notion-enhancer-for-google-search-webstore.png"
 ---
 
 ![demo](/assets/2024/notion-enhancer-for-google-search-setup.gif)
