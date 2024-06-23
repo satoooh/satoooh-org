@@ -2,6 +2,7 @@
 title: "ScrapboxとGoogleを同時検索するChrome拡張機能「Scrapbox Enhancer for Google Search」を作った"
 description: "Google 検索結果のサイドバーに Scrapbox の検索結果が表示されるやつを作りました。"
 pubDatetime: 2023-01-30T04:20:00Z
+modDatetime: 2024-06-23
 author: "satoooh"
 slug: "create-scrapbox-chrome-extension"
 featured: false
@@ -10,6 +11,10 @@ tags:
   - "2023"
   - "scrapbox"
 ogImage: "https://gyazo.com/ff42ad2596c9d5bf75d9b34ff0ef1754.png"
+---
+
+追記: 2024-06-23 chrome ウェブストアに公開しました。[Scrapbox Enhancer for Google Search - Chrome ウェブストア](https://chromewebstore.google.com/detail/scrapbox-enhancer-for-goo/fpbdlcgcacniolpniiciabdbndhmacmh)
+
 ---
 
 GitHub: [satoooh/scrapbox-enhancer-for-google-search: a Chrome extension that displays Scrapbox search results alongside Google search results](https://github.com/satoooh/scrapbox-enhancer-for-google-search)
