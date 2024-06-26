@@ -56,10 +56,7 @@ module.exports = {
       fontFamily: {
         mono: ["IBM Plex Mono", "monospace"],
         sans: [
-          '"Noto Sans JP", sans-serif',
-          {
-            fontFeatureSettings: '"palt"',
-          },
+          '"Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", Meiryo, sans-serif',
         ]
       },
 
