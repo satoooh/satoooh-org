@@ -13,7 +13,7 @@ tags:
   - "やってみた"
 ---
 
-kensuu さんのツイート [^kensuu-tweet] をみて、「**音声入力→文字起こし→ChatGPTに整形してもらって原稿化**」という流れが便利だし、これってAPIつなげるだけでできそうだなと思ったので LINE bot で動くように作りました。
+kensuu さんのツイート [^kensuu-tweet] をみて、「<u>**音声入力→文字起こし→ChatGPTに整形してもらって原稿化**</u>」という流れが便利だし、これってAPIつなげるだけでできそうだなと思ったので LINE bot で動くように作りました。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">1: 超おもしろい記事を頭の中で書く<br>2: それをそのまま言葉で話す<br>3:音声入力でテキストにする<br>4:ChatGPTで整形してもらう<br>5:noteに貼る<br>6:細かいところを修正<br><br>ブログ書くのがめちゃくちゃ楽になってしまった。文章書くのが苦手な人でも、これならブログを毎日書けたりするのでは！</p>&mdash; けんすう - きせかえNFTの「sloth」 (@kensuu) <a href="https://twitter.com/kensuu/status/1638911266931761152?ref_src=twsrc%5Etfw">March 23, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

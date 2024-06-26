@@ -87,7 +87,7 @@ collatz_count_list: list = [collatz_count(i) for i in range(1, n_max+1)]
 print(f"max count: {np.max(collatz_count_list)}, n: {np.argmax(collatz_count_list)+1}")
 ```
 
-実行結果は `max count: 261, n: 6171` ということで、**1から10000までの整数は全部261ステップ以内で1に到達する**ということですね。
+実行結果は `max count: 261, n: 6171` ということで、<u>**1から10000までの整数は全部261ステップ以内で1に到達する**</u>ということですね。
 
 そこで試しに `n=6171` でのステップごとの値の変化をプロットして、1に近づいていく様子を観察してみます。
 

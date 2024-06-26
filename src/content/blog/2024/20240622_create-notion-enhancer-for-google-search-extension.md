@@ -13,7 +13,7 @@ ogImage: "/assets/2024/notion-enhancer-for-google-search-webstore.png"
 
 ![demo](/assets/2024/notion-enhancer-for-google-search-setup.gif)
 
-Google検索結果のサイドバーにNotionの検索結果が表示されるやつを作りました。
+Google検索結果のサイドバーに<u>Notionの検索結果が表示されるやつ</u>を作りました。
 
 - chromeウェブストア: [Notion Enhancer for Google Search](https://chromewebstore.google.com/detail/notion-enhancer-for-googl/idmnlikmdlobiejklmkhapchenhmanbo)
 - GitHub: [satoooh/notion-enhancer-for-google-search](https://github.com/satoooh/notion-enhancer-for-google-search)

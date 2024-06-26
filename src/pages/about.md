@@ -27,11 +27,11 @@ AI enthusiast & Research hobbyist. Master from rkmtlab@UTokyo GSII (Interdiscipl
 
 - The University of Tokyo, 2024
   - Applied Computer Science course in the Graduate School of Interdisciplinary Information Studies
-  - Master Thesis: **Augmenting Kick Direction Prediction in Soccer using Machine Learning Models** (Awarded the Outstanding Master's Thesis Award)
+  - Master Thesis: <u>**Augmenting Kick Direction Prediction in Soccer using Machine Learning Models**</u> (Awarded the Outstanding Master's Thesis Award)
 - The University of Tokyo, 2022
   - Natural Sciences I (2017.04 ~ 2020.03)
   - Informatics, Department of Interdisciplinary Sciences, College of Arts and Sciences (2020.04 ~ 2022.03)
-  - Graduation Project: **A Study on the Relationship between Goalkeeper's Skill Level and the Predictive Ability of Penalty Kick Outcomes in Soccer**
+  - Graduation Project: <u>**A Study on the Relationship between Goalkeeper's Skill Level and the Predictive Ability of Penalty Kick Outcomes in Soccer**</u>
 - Sendai Daini High School, Miyagi Prefecture, 2016
   - Had a wonderful time as a high-school student.
 

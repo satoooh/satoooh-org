@@ -27,7 +27,7 @@ GitHub: [satoooh/scrapbox-enhancer-for-google-search: a Chrome extension that di
 
 記事冒頭の GitHub repo [^github-repo] からソースコードをダウンロードし、お手元の Chrome ブラウザに展開してください。
 Web Store への公開はめんどくさそうなので調べていません（詳しい人教えて）
-まともに動作保証をしていませんので**使用は自己責任で**お願いします。
+まともに動作保証をしていませんので<u>**使用は自己責任で**</u>お願いします。
 何かバグっぽい挙動があったら repo もしくは当記事までコメントください。
 
 以下、特徴です。
