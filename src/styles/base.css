@@ -71,12 +71,6 @@
     prose-blockquote:opacity-80
     prose-figcaption:!text-skin-base
     prose-figcaption:opacity-70
-    prose-strong:bg-gradient-to-b
-    prose-strong:from-transparent
-    prose-strong:from-75%
-    prose-strong:to-[rgb(var(--color-underline))]
-    prose-strong:to-75%
-    prose-strong:!text-skin-base
 
     prose-code:rounded prose-code:bg-skin-card 
     prose-code:bg-opacity-75 prose-code:p-1 
@@ -91,6 +85,9 @@
   }
   .prose a {
     @apply break-words hover:!text-skin-accent;
+  }
+  .prose u {
+    @apply mx-[2px] no-underline bg-gradient-to-b from-transparent from-70% to-[rgb(var(--color-underline))] to-70% !text-skin-base;
   }
   .prose thead th:first-child,
   tbody td:first-child,
