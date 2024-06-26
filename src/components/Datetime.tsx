@@ -32,11 +32,11 @@ export default function Datetime({
       </svg>
       {isUpdated ? (
         <>
-          <span className={`italic ${size === "sm" ? "text-sm" : "text-base"}`}>
+          <span className={`italic ${size === "sm" ? "text-xs" : "text-sm"}`}>
             <FormattedDatetime pubDatetime={pubDatetime} />
           </span>
           <span
-            className={`italic ${size === "sm" ? "text-sm" : "text-base"} pl-2`}
+            className={`italic ${size === "sm" ? "text-xs" : "text-sm"} pl-2`}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -49,13 +49,13 @@ export default function Datetime({
               <path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4" />
             </svg>
           </span>
-          <span className={`italic ${size === "sm" ? "text-sm" : "text-base"}`}>
+          <span className={`italic ${size === "sm" ? "text-xs" : "text-sm"}`}>
             <FormattedDatetime pubDatetime={modDatetime} />
           </span>
         </>
       ) : (
         <>
-          <span className={`italic ${size === "sm" ? "text-sm" : "text-base"}`}>
+          <span className={`italic ${size === "sm" ? "text-xs" : "text-sm"}`}>
             <FormattedDatetime pubDatetime={pubDatetime} />
           </span>
         </>
