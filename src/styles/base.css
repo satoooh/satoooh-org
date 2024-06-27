@@ -20,7 +20,7 @@
     --color-card: 63, 75, 90;
     --color-card-muted: 89, 107, 129;
     --color-border: 59, 70, 85;
-    --color-underline: 44, 172, 110;
+    --color-underline: 255, 227, 128, 0.5;
   }
   #sun-svg,
   html[data-theme="dark"] #moon-svg {
@@ -71,6 +71,7 @@
     prose-blockquote:opacity-80
     prose-figcaption:!text-skin-base
     prose-figcaption:opacity-70
+    prose-strong:!text-skin-base
 
     prose-code:rounded prose-code:bg-skin-card 
     prose-code:bg-opacity-75 prose-code:p-1 
